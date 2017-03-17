@@ -1,7 +1,7 @@
 var guys = {
-	"yuuki": "http://steamcommunity.com/id/ezwallhack",
-	"plopp": "http://steamcommunity.com/id/unsuccessful",
-	"ode": "http://steamcommunity.com/id/9mil"
+	"yuuki": "http://steamcommunity.com/profiles/76561198128126194",
+	"plopp": "http://steamcommunity.com/profiles/76561198195043517",
+	"ode": "http://steamcommunity.com/profiles/76561198298804931"
 }
 
 var links = {
