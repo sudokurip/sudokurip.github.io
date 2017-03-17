@@ -5,7 +5,7 @@ var guys = {
 }
 
 var links = {
-	"sudoku": "http://steamcommunity.com/group/sudokudeath"
+	"sudoku": "http://steamcommunity.com/groups/sudokudeath"
 }
 
 var marquee = document.getElementsByClassName("js-marquee")[0];
