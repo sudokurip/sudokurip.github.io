@@ -4,6 +4,10 @@ var guys = {
 	"ode": "http://steamcommunity.com/id/9mil"
 }
 
+var links = {
+	"sudoku": "http://steamcommunity.com/group/sudokudeath"
+}
+
 var marquee = document.getElementsByClassName("js-marquee")[0];
 
 for (var guy in guys)
@@ -22,3 +26,16 @@ for (var guy in guys)
 }
 
 var center = document.getElementById("center");
+
+for (var link in links)
+{
+	var pre = document.createElement("pre");
+	var node = document.createElement("a");
+	var text = document.createTextNode(link);
+
+	node.appendChild(text);
+	node.href = links[link];
+	node.target = "_blank";
+	pre.appendChild(node);
+	center.appendChild(pre);
+}
